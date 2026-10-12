@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#050505"><meta name="description" content="Malik — Videographer and Editor. Beauty, product and social content portfolio.">
+  <title>Malik — Videographer / Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Main navigation">
+      <div class="brand-mark" aria-hidden="true">M<span>.</span></div>
+      <nav class="nav-list">
+        <button class="nav-item active" data-page="home"><img src="assets/nav-home.png" alt=""><span>Home</span></button>
+        <button class="nav-item" data-page="beauty"><img src="assets/nav-beauty.png" alt=""><span>Beauty/Products</span></button>
+        <button class="nav-item" data-page="social"><img src="assets/nav-social.png" alt=""><span>Social Contents</span></button>
+        <button class="nav-item" data-page="contact"><img src="assets/nav-contact.png" alt=""><span>Contacts</span></button>
+      </nav>
+      <div class="sidebar-foot">MALIK <span>•</span> PORTFOLIO</div>
+    </aside>
+
+    <main class="main-stage">
+      <section class="page page-home active" id="page-home" aria-label="Home">
+        <div class="home-content">
+          <div class="profile-row">
+            <img class="profile-photo" src="assets/profile.png" alt="Malik">
+            <div class="profile-copy"><p class="eyebrow">CREATIVE PORTFOLIO</p><h1>MALIK</h1><h2>Videographer/Editor</h2><p class="bio">Creating visual content for brands, from production to the final edit. Always exploring fresh ideas and new techniques to keep every project engaging and relevant.</p></div>
+          </div>
+          <div class="pill-row"><div class="pill">SKILLS</div><div class="pill">TOOLS</div></div>
+          <div class="skill-grid">
+            <div class="skill"><img src="assets/premiere.png" alt=""><span>Premiere Pro</span></div>
+            <div class="skill"><img src="assets/after-effects.png" alt=""><span>After Effect</span></div>
+            <div class="skill"><img src="assets/photoshop.png" alt=""><span>Photoshop</span></div>
+            <div class="skill"><img src="assets/capcut.png" alt=""><span>CapCut</span></div>
+            <div class="skill"><img src="assets/camera.png" alt=""><span>Camera Operating</span></div>
+            <div class="skill"><img src="assets/lighting.png" alt=""><span>Lighting Setup</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page portfolio-page" id="page-beauty" aria-label="Beauty and products portfolio" data-type="beauty">
+        <div class="portfolio-wrap"><div class="section-kicker">SELECTED WORK / 01</div><h2 class="section-title">Beauty <span>&amp; Products</span></h2>
+          <div class="carousel" data-carousel="beauty"><button class="arrow arrow-left" aria-label="Previous video"><img src="assets/arrow-left.png" alt=""></button><div class="slides" aria-live="polite"></div><button class="arrow arrow-right" aria-label="Next video"><img src="assets/arrow-right.png" alt=""></button></div>
+          <div class="dots" aria-label="Choose a video"></div><p class="carousel-hint">SELECT A PROJECT TO PREVIEW</p>
+        </div>
+      </section>
+
+      <section class="page portfolio-page" id="page-social" aria-label="Social content portfolio" data-type="social">
+        <div class="portfolio-wrap"><div class="section-kicker">SELECTED WORK / 02</div><h2 class="section-title">Social <span>Contents</span></h2>
+          <div class="carousel" data-carousel="social"><button class="arrow arrow-left" aria-label="Previous video"><img src="assets/arrow-left.png" alt=""></button><div class="slides" aria-live="polite"></div><button class="arrow arrow-right" aria-label="Next video"><img src="assets/arrow-right.png" alt=""></button></div>
+          <div class="dots" aria-label="Choose a video"></div><p class="carousel-hint">SELECT A PROJECT TO PREVIEW</p>
+        </div>
+      </section>
+
+      <section class="page page-contact" id="page-contact" aria-label="Contact Malik">
+        <div class="contact-content"><p class="contact-intro">Want to work together?</p><h2>Start a project</h2><div class="contact-meta"><span>Available Freelance</span><span>Portfolio Updated<br>2026</span></div>
+          <a class="email-link" href="mailto:malik0910v@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          <div class="social-links"><a href="https://www.instagram.com/_mmaliki/" target="_blank" rel="noopener noreferrer">Instagram <span>↗</span></a><a href="https://www.linkedin.com/in/maulana-malik-ibrahim-5377921a4/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a></div>
+        </div>
+      </section>
+      <div class="page-index" aria-hidden="true"><span id="page-count">01</span><i></i><span>04</span></div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
